@@ -1,0 +1,16 @@
+# Defining vector
+x <- c(3, 7, 5, 13, 20, 23, 39,  
+       23, 40, 23, 14, 12, 56,
+       23, 29, 56, 37, 45, 1, 25, 8)
+  
+# Generate frequency table
+y <- table(x)
+  
+# Print frequency table
+print(y)
+  
+# Mode of x
+m <- names(y)[which(y == max(y))]
+  
+# Print mode
+print(m)
